@@ -1,0 +1,20 @@
+# System
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OpenClaw internals (بدون فائدة)
+.openclaw/
+sessions/
+*.log
+
+# Sensitive (ما نرفعها)
+.env
+*.key
+*.pem
+credentials/
+
+# Keep: MEMORY.md, SOUL.md, AGENTS.md, skills/, eid-skills/
