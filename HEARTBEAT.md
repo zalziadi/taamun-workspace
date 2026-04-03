@@ -1,5 +1,10 @@
 # HEARTBEAT.md
 
+## Git Sync (every 5 min via cron)
+- ✅ Auto-sync enabled: `workspace-git-sync` job
+- MEMORY.md, SOUL.md, memory/ auto-commit when changed
+- Pull from remote (if configured)
+
 ## Delivery Queue Check (every heartbeat)
 - [ ] Check for Claude Code tasks: `ls ~/.openclaw/delivery-queue/to-openclaw/*.json 2>/dev/null`
 - [ ] Check for OpenClaw tasks: `ls ~/.openclaw/delivery-queue/to-claude-code/*.json 2>/dev/null`

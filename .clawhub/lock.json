@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1774098722123
+    },
+    "whatsapp-business": {
+      "version": "1.0.3",
+      "installedAt": 1774098726861
+    },
+    "sales-pipeline-tracker": {
+      "version": "1.0.0",
+      "installedAt": 1774098802878
+    },
+    "weekly-report-generator": {
+      "version": "1.0.0",
+      "installedAt": 1774098807066
+    },
+    "crm-manager": {
+      "version": "1.0.0",
+      "installedAt": 1774098810668
+    },
+    "accli": {
+      "version": "1.0.0",
+      "installedAt": 1774098814754
+    },
+    "whatsapp-chats": {
+      "version": "1.0.0",
+      "installedAt": 1774098863488
+    },
+    "summarizer": {
+      "version": "1.0.0",
+      "installedAt": 1774098867493
+    },
+    "tts-whatsapp": {
+      "version": "1.0.0",
+      "installedAt": 1774098871984
+    }
+  }
+}
