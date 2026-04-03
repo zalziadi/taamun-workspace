@@ -2,10 +2,12 @@
 
 ## 🔄 100% Sync Protocol (Updated: 2026-04-03 16:34)
 
-### GitHub Backup
+### GitHub Backup & Branching
 - **Repo:** https://github.com/zalziadi/taamun-workspace
 - **Auto-sync:** Every 5 minutes (git pull + push)
-- **All agents:** Can pull/push (branches: feature/*, task/*)
+- **Branches:** 7 feature branches (musakhar, burhan, cj, samraa, warda, wolf, shaheen)
+- **Workflow:** feature/[agent] → task/[id] → master (via PR)
+- **Strategy:** GIT-BRANCHING-STRATEGY.md (documented)
 
 ## 🔄 100% Sync Protocol (Original)
 
