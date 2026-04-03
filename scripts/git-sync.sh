@@ -4,8 +4,8 @@
 cd /Users/ziyadalziyadi/.openclaw/workspace
 
 # Step 1: Pull latest from remote
-echo "🔄 Pulling from git..."
-git pull origin master 2>/dev/null || echo "⚠️ Pull failed (no remote?)"
+echo "🔄 Pulling from GitHub..."
+git pull origin master 2>&1 | grep -E "(Already up to date|Updating|error)" || echo "✅ Synced"
 
 # Step 2: Commit any changes
 echo "📝 Checking for changes..."
@@ -18,7 +18,7 @@ if [[ -n $(git diff --cached --name-only) ]]; then
   echo "✅ Committed: $FILES"
   
   # Step 3: Push to remote
-  git push origin master 2>/dev/null || echo "⚠️ Push failed"
+  git push origin master 2>&1 | grep -E "(up-to-date|rejected|error)" || echo "📤 Pushed to GitHub"
 else
   echo "✅ No changes"
 fi

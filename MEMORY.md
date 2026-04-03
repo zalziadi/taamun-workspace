@@ -1,6 +1,13 @@
 # MEMORY.md — الذاكرة الطويلة الأمد
 
-## 🔄 100% Sync Protocol (Updated: 2026-04-03 16:30)
+## 🔄 100% Sync Protocol (Updated: 2026-04-03 16:34)
+
+### GitHub Backup
+- **Repo:** https://github.com/zalziadi/taamun-workspace
+- **Auto-sync:** Every 5 minutes (git pull + push)
+- **All agents:** Can pull/push (branches: feature/*, task/*)
+
+## 🔄 100% Sync Protocol (Original)
 
 ### For All Agents (مسخّر، برهان، CJ، سمرا، وردة، ذئب، شاهين):
 1. **Start Session:** `git pull origin master`
