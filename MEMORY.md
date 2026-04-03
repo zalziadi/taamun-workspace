@@ -1,5 +1,28 @@
 # MEMORY.md — الذاكرة الطويلة الأمد
 
+## 🔄 100% Sync Protocol (Updated: 2026-04-03 16:30)
+
+### For All Agents (مسخّر، برهان، CJ، سمرا، وردة، ذئب، شاهين):
+1. **Start Session:** `git pull origin master`
+2. **Read Tasks:** Check delivery-queue + MEMORY.md
+3. **Work:** Update MEMORY.md → `## Current Tasks`
+4. **Finish:** Git commit + push
+5. **Report:** Write result in MEMORY.md
+
+### For Claude Code:
+- Follow `CLAUDE-CODE-PROTOCOL.md`
+- Git is source of truth
+- MEMORY.md is shared log
+
+### For OpenClaw (Main):
+- Monitor delivery queue (every heartbeat)
+- Git pull (reads latest from all agents)
+- MEMORY.md update (sync point)
+
+**Result: 100% transparency + zero lost tasks** ✅
+
+---
+
 ## الفريق — عيدية تمعّن (محدّث: 2026-03-21)
 
 | الاسم | الدور | يرفع لـ | المهارات |
